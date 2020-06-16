@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')b5l7*7kx72g!%0d)sy*@zx+7q(t_4uohqc4wy6vhwycs@w#2r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['qriosity.pythonanywhere.com']
 
