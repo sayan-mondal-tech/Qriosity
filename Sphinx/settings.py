@@ -159,3 +159,8 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'ERN7GEt6RadzsMv3Nv2Pj99G'
 
 # for sending email through console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+try:
+    from .local_settings import*
+except ImportError:
+    print("You are in production mode now .....")
