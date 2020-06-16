@@ -16,6 +16,16 @@
     .panel {
         font-size: large;
     }
+    .btn {
+        padding: 10px;
+        border-radius: 5px;
+        font-size: large;
+        background-color: aliceblue;
+    }
+
+    .btn:hover {
+        background-color: rgb(108, 163, 211);
+    }
 </style>
 
 <div class="question-container container-fluid" >
@@ -34,11 +44,12 @@
         5.All the Best!
     </pre>
   </div>
-        <div class="col-sm-12" align="right">
+        <div class="col-sm-12" >
             <br>
 
                 <button onclick="location.href='{% url 'quiz:quiz_category_list_all'  %}'" type="button" class="btn btn-success">
-                    <span class="glyphicon glyphicon-arrow-right"></span>&nbsp; Start Quiz
+                    <!-- <span class="glyphicon glyphicon-arrow-right"></span> -->
+                    Start Quiz
                 </button>
             </a>
         </div>
