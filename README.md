@@ -1,9 +1,9 @@
 # Qriosity
 
 
-## Build Status
+### Build Status
 
-This is a configurable quiz app based on Django.  
+>This is a configurable quiz app based on Django.  
 
 **Current features**
 
