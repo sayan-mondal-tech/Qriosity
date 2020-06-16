@@ -1,15 +1,15 @@
-# **Django quiz app**
+# Qriosity
 
 
-## **Build Status
+### Build Status
 
-This is a configurable quiz app for Django.  
+>This is a configurable quiz app based on Django.  
 
-**Current features
+**Current features**
 
-**Features of each quiz:
+**Features of each quiz:**
 
-Question order randomisation.  
+>Question order randomisation.  
 Storing of quiz results under each user.  
 Correct answers can be shown after each question or all at once at the end.  
 Logged in users can return to an incomplete quiz to finish it and non-logged in users can complete a quiz if their session persists.  
@@ -23,18 +23,17 @@ Display an image alongside the question.
 A marking page which lists completed quizzes, can be filtered by quiz or user, and is used to mark essay questions.  
 For MCQ type questions and answers in random order for each user.  
 
-**requirements 
+**requirements** 
 
 see requirements.txt in project file  
 
-**installations  
+**installations**  
 
-1.Clone the  repo and download . It will be downloaded in zip format.  
-2.Activate djenv source  
-Change your directory to django_projects.  
-3.$ django-admin startproject Sphinx  
-4.Go in Sphinx folder that you created and delete all its content.  
-5.Unzip the repo github and copy all the files inside the DjangoQuizSphinx  
-6.Paste the copied files and folders to the Sphinx folder that you created.  
-7.Install from requirements.txt if needed else you are all set to go  
-8.python manage.py runserver  
+>1. Clone the  repo and download.
+>2. Install virtualenv    
+>3. cd Qriosity
+>4. pip install -r requirements.txt
+>5. python manage.py runserver  
+
+
+&copy; ieee sb nitd @ 2020
