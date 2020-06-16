@@ -34,3 +34,6 @@ see requirements.txt in project file
 >3. cd Qriosity
 >4. pip install -r requirements.txt
 >5. python manage.py runserver  
+
+
+&copy; ieee sb nitd @ 2020
