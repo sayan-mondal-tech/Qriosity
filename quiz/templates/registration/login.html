@@ -51,12 +51,25 @@
   </style>
   {% block body %}
   <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    header nav li a {
+      color: #fff;
+    }
     #form {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
       justify-content: center;
+      position: absolute;
+      top: 20vh;
     }
     #form_content {
       background: rgba(255, 255, 255, 0.3);
