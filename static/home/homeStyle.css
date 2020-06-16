@@ -18,6 +18,7 @@ html {
   text-align: center;
   flex-wrap: wrap;
   font-size: larger;
+  pointer-events: all;
 }
 
 .bg-text {
@@ -55,7 +56,7 @@ html {
 
 .glow {
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 80px;
   color: white;
   text-align: center;
 }
@@ -101,4 +102,18 @@ html {
 .para {
   font-size: 5px;
   font-family: "Roboto";
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 25px;
+  font-size: large;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.btn:hover {
+  background-color: rgb(108, 163, 211);
+  border-color: rgb(108, 163, 211);
 }
