@@ -5,6 +5,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        pointer-events: all;
     }
     .question-container {
         display: flex;
@@ -12,6 +13,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        pointer-events: all;
     }
     .panel {
         font-size: large;
@@ -20,7 +22,8 @@
         padding: 10px;
         border-radius: 5px;
         font-size: large;
-        background-color: aliceblue;
+        background-color: black;
+        color: white;
     }
 
     .btn:hover {
@@ -47,9 +50,10 @@
         <div class="col-sm-12" >
             <br>
 
-                <button onclick="location.href='{% url 'quiz:quiz_category_list_all'  %}'" type="button" class="btn btn-success">
+                <!-- <button onclick="location.href='{% url 'quiz:quiz_category_list_all'  %}'" type="button" class="btn btn-success"> -->
                     <!-- <span class="glyphicon glyphicon-arrow-right"></span> -->
-                    Start Quiz
+                    <button class="btn" type="submit" value="Play">
+                    <a href="{% url 'welcome' %}" target="_blank" > Start Quiz </a> 
                 </button>
             </a>
         </div>
