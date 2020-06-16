@@ -20,20 +20,14 @@ tl.fromTo(
     opacity: 0,
     x: 100,
     ease: "rough",
+  })
+  .from(".box-text2", {
+    opacity: 0,
+    x: 100,
+    ease: "power2.out",
+  })
+  .from(".dare", {
+    opacity: 0,
+    y: -100,
+    ease: "power2.out",
   });
-
-const cl = document.querySelector(".container");
-cl.addEventListener("mouseover", typeWriter);
-
-var i = 0;
-var txt2 =
-  "Qriosity , being the cryptic extravaganza it is, is one of the most popular events of IEEE. It draws participation across all streams, departments and years, with students battling it out for the glory.";
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt2.length) {
-    document.getElementById("demo").innerHTML += txt2.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
