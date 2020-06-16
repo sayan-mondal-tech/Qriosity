@@ -10,7 +10,7 @@
 }
 
 body {
-  cursor: none;
+  /* cursor: none; */
   text-align: center;
 }
 
@@ -97,13 +97,17 @@ html {
 }
 
 .cursor {
+  /* border: 2px solid #0ff;
+  border-radius: 2px; */
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-200%, -200%);
   pointer-events: none;
-  z-index: 1000 !important;
+  z-index: 3;
   transition: all 0.3 ease;
   transition-property: background, transform;
   transform-origin: 100% 100%;
-  box-shadow: 8px 8px 8px 8px var(--myvar);
+  /* box-shadow: 60px 40px 20px 10px #0ff; */
   backdrop-filter: blur();
+  box-shadow: 0 0 6px 3px #fff, /* inner white */ 0 0 10px 6px #f0f,
+    /* middle magenta */ 0 0 28px 18px #0ff;
 }
